@@ -1,4 +1,28 @@
 ## General Information
+
+`vs code : Git Bash`
+### Login into raspberrypi
+```bash
+MICROSOFT@DESKTOP-225HS7V MINGW64 ~
+$ ssh pi@raspberrypi.local
+pi@raspberrypi.local's password: 
+Linux raspberrypi 6.12.47+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1 (2025-09-16) aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sat Nov 15 22:31:23 2025 from 192.168.1.6
+```
+``` bash
+hostname -I : to get ip adress
+```
+```
+pwd: 09-09-2024
+```
+
 - For camera module `raspi-still` is not working `libcamera-still`.
 - The video format must be : Video.h264.
 
